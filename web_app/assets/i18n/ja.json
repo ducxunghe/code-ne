@@ -1,0 +1,601 @@
+{
+    "common": {
+        "web-title": " | イノベーションテクノロジー株式会社。",
+        "navigation": {
+            "home": "ホーム",
+            "whoweserve": "私たちの顧客",
+            "weprovide": "商品・サビース​",
+            "ourprojects": "私たちのプロジェクト",
+            "blog": "ブログ",
+            "about": "私たちに関しては",
+            "contact": "お問い合わせ"
+        },
+        "copyright": {
+            "copyright": "InnoTech Business Services. © 2021 All Rights Reserved.",
+            "terms-of-service": "利用規約",
+            "privacy-policy": "プライバシーポリシー"
+        },
+        "client-stories": {
+            "title": "クライアントストーリー",
+            "carousel-list": {
+                "item1": {
+                    "alt": "クライアントストーリー",
+                    "main-title": "MainTitle",
+                    "sub-title": "SubTitle",
+                    "item-content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                },
+                "item2": {
+                    "alt": "クライアントストーリー",
+                    "main-title": "MainTitle",
+                    "sub-title": "SubTitle",
+                    "item-content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                },
+                "item3": {
+                    "alt": "クライアントストーリー",
+                    "main-title": "MainTitle",
+                    "sub-title": "SubTitle",
+                    "item-content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                }
+            }
+        },
+        "buttons": {
+            "ok": "Ok",
+            "cancel": "Cancel",
+            "close": "Close",
+            "select": "Select",
+            "back": "Back",
+            "next": "Next",
+            "previous": "Previous",
+            "delete": "Delete",
+            "edit": "Edit",
+            "add": "Add",
+            "default": "Default",
+            "active": "Active",
+            "deactive": "Deactive",
+            "save": "Save",
+            "search": "Search",
+            "change": "Change",
+            "send": "送信",
+            "apply": "Apply"
+        },
+        "validation": {
+            "error-message": {
+                "required": "この項目は必須です",
+                "invalid": "{field} の形式が正しくないので、再度入力してください。",
+                "least-choose": "興味のあるサポートの種類を少なくとも1つご選択ください。"
+            },
+            "message": "何かがうまくいかなかった...!!!",
+            "badge-required": "Required",
+            "badge-optional": "Optional",
+            "message-required-input": "Field [$0] must have value.",
+            "message-required-select-box": "Field [$0] must be select one value.",
+            "message-required-multiple-select-box": "Field [$0] must be select one or more value.",
+            "message-pattern": "The format of field [$0] was incorrect. Let's enter it again, please.",
+            "message-max-length": "Field [$0] must be enter less or equal $1 characters.",
+            "message-min-max-length": "Field [$0] must be enter from $1 to $2 characters.",
+            "message-exactly-length": "Field [$0] must be enter $1 characters.",
+            "message-end-before-start-date": "Date of field [$0] must be before field [$1].",
+            "message-not-matched": "The entered value of field [$0] and [$1] must be the same.",
+            "message-exist": "The value of [$0] has already been takken. Please re-enter for another [$1].",
+            "message-not-exist": "The value of [$0] was incorrect. Let's enter another value.",
+            "password-unchange-error": "The new password must be different from the current password."
+        },
+        "field": {
+            "email": "メールアドレス​",
+            "phone": "電話番号",
+            "fullname": "お名前",
+            "company": "会社名​",
+            "message": "問い合わせ内容​"
+        },
+        "footer": {
+            "connection": "連絡先情報",
+            "phone": "090 387 58 30",
+            "email": "kenvo@inotek.us",
+            "address": "3C Ton Duc Thang Street, District 1, Ho Chi Minh, VIETNAM"
+        }
+    },
+    "pages": {
+        "homepage": {
+            "page-title": "ホーム",
+            "slogan": {
+                "main-slogan": "GOOD JOB",
+                "sub-slogan": "LOW COST"
+            },
+            "box-1": {
+                "title-text": "INOTEKから何を得るか。",
+                "highlight": "INOTEK",
+                "sub-title-text": "最先端技術と質の高い人材でINOTEKは低コストで顧客に最良のサービスを提供することに努めております。",
+                "button-text": "さらに読み込む"
+            },
+            "box-2": {
+                "title-text": "多岐にわたるプロジェクト",
+                "highlight": "多岐にわたるプロジェクト",
+                "sub-title-text": "多岐にわたる専門知識と最新技術を常に追いかける能力で、当社は幅広い分野における事業発展の道に顧客を支援する準備ができております。",
+                "button-text": "さらに読み込む"
+            },
+            "services": {
+                "title": "私たちのサービス",
+                "advise": {
+                    "text": "コンサルティング",
+                    "alt": "コンサルティング"
+                },
+                "build": {
+                    "text": "作成",
+                    "alt": "作成"
+                },
+                "run": {
+                    "text": "運行",
+                    "alt": "運行"
+                },
+                "optimize": {
+                    "text": "最適化",
+                    "alt": "最適化"
+                },
+                "provide-list": {
+                    "item-1": {
+                        "title": "Webアプリケーション",
+                        "subtitle": "Webアプリを作ることは会社の信用を高めるのみならず顧客体験を最適化するというメリットもあります。"
+                    },
+                    "item-2": {
+                        "title": "モバイルアプリケーション",
+                        "subtitle": "スマートな機能及び人目を引くインターフェースを持ったモバイルアプリの活用によって事業の運営・発展を効率的に促します。"
+                    },
+                    "item-3": {
+                        "title": "E-learning",
+                        "subtitle": "データの自動化・体系化のより、ユーザが自己登録・学習管理ができます。幅広いネットワークのおかげで様々な講義を提供することも可能になります。"
+                    },
+                    "item-4": {
+                        "title": "E-commerce",
+                        "subtitle": "従来のビジネスモデルの代わりとなるEコマースは企業の競争優位性、コンバージョン率及び 売上の向上につながるものであります。"
+                    },
+                    "item-5": {
+                        "title": "人事システム",
+                        "subtitle": "出席確認、勤怠管理、従業員記録管理、定期的な能力評価などの優れた機能を持つことで人的資源管理をサポートします。"
+                    },
+                    "item-6": {
+                        "title": "会計システム",
+                        "subtitle": "従業員のボーナス、企業の財務状況及び運営費を効率良く回せるようにしたシステムです。"
+                    },
+                    "item-7": {
+                        "title": "DevOps",
+                        "subtitle": "開発部門と運用部門の間のプロセスを統合し、品質とプロジェクト完了までの期間を保ちます。"
+                    },
+                    "item-8": {
+                        "title": "コンサルティング",
+                        "subtitle": "顧客のご要望に応じて、ソフトウェアの設計・構築・運用及び技術移転を支える総合的なコンサルティングサービスをご提供たします。"
+                    }
+                }
+            },
+            "commitment": {
+                "title": "我々のコミットメント",
+                "commitment-list": {
+                    "item-1": {
+                        "title": "コスト削減",
+                        "subtitle": "予算の悩みを知り、INOTEKはサービスを適切な価格で提供すると同時に、プロジェクトの品質・進捗を確保します。"
+                    },
+                    "item-2": {
+                        "title": "創造的なソリューション",
+                        "subtitle": "顧客のビジネスの発展・拡大を支援するため、当社は常に最も創造的なソリューションを提供することに努めております。"
+                    },
+                    "item-3": {
+                        "title": "情報セキュリティー",
+                        "subtitle": "INOTEKは、サービスを提供するのみならず、顧客からの絶対的な信頼と安心を構築したいと考えているため、常に顧客の情報セキュリティを第一に考えております"
+                    },
+                    "item-4": {
+                        "title": "最高のチーム",
+                        "subtitle": "INOTEKには、優れたテクノロジーの製品が提供できるように、学際的な専門知識を備えたの最高で、もっとも熱心な若手エンジニアたちがいます。"
+                    }
+                }
+            },
+            "partner": {
+                "title": "もっと見る",
+                "box": {
+                    "title-text": "アドバイスを受けて、私たちにご協力ください",
+                    "highlight": "アドバイスを受けて、私たちにご協力ください",
+                    "sub-title-text": "最善の方法で顧客のビジネスをサポートし、発展させるために、すべての質問を詳細に相談し、回答する準備ができています。",
+                    "button-text": "連絡"
+                }
+            },
+            "vision": {
+                "title": "世界テクノロジー地図におけるベトナムの地位を確認する ",
+                "highlight": "世界テクノロジー地図におけるベトナムの地位を確認する ",
+                "subtitle": "創造的かつ革新的な分野と技術移転における先駆的な企業を目指すといったビジョンを以て、INOTEKは日本やアメリカ、オーストラリアなどの先進国をはじめ、国外と国内との間におけるテクノロジーを繋ぐ目標を掲げています。",
+                "button": "相談のお申し込み"
+            },
+            "blog": {
+                "title": "ブログ",
+                "read-more": "もっと見る"
+            }
+        },
+        "term-of-service": {
+            "page-title": "利用規約",
+            "header": "利用規約"
+        },
+        "privacy-policy": {
+            "page-title": "プライバシーポリシー",
+            "header": "プライバシーポリシー"
+        },
+        "whoweserve": {
+            "page-title": "私たちが奉仕するのは誰か",
+            "banner": {
+                "caption": "私たちの顧客"
+            },
+            "intro-text": {
+                "text": "低コストで最新のテクノロジーと最高のエンジニアチームを探す海外会社にサービスと製品を提供しておる。"
+            },
+            "pro-our": {
+                "button": {
+                    "view-more": "もっと見る"
+                },
+                "item1": {
+                    "icon-alt": "icon product",
+                    "title": "プロダクション",
+                    "sub-title": "ソフトウェアテクノロジープラットフォームを構築したり、運用したり、しておる。",
+                    "text": "製品例",
+                    "highlight": "",
+                    "content-text": "KAWME-教育のテクノロジープラットフォームで、ユーザーに様々なオンラインコースに提供しているというアプリである。"
+                },
+                "item2": {
+                    "icon-alt": "icon soucing",
+                    "title": "アウトソーシング",
+                    "sub-title": "顧客の要求に応じて、ソフトウェアシステムの設計、作成、運用、保守、および最適化に関するコンサルティングを受けておる。",
+                    "text": "製品例",
+                    "highlight": "",
+                    "content-text": "TOKUNABI –日本のトレンタ会社がベトナム人に日本での仕事を紹介してあげるという「トクナビ」アプリである。"
+                }
+            }
+        },
+        "weprovide": {
+            "page-title": "Trang What We Do",
+            "banner": {
+                "caption": "INOTEKのプロバイダー​"
+            },
+            "intro-text": {
+                "text": "テクノロジー、ビジネス、ソフトウェアエンジニアリングに関するコンサルティングを含むさまざまで包括的な製品とサービスです。"
+            },
+            "process": {
+                "title": "我々のしていること",
+                "content": "顧客の要求に基づいて、革新的なソフトウェアシステムをコンサルティングし、構築し、最適化にし、実行します。​"
+            },
+            "product-and-service": {
+                "title": "製品とサービス​",
+                "content": "最新のテクノロジーソリューションにより、誰もが仕事を手軽につながり、完成することができる豊かな世界を目指しています。",
+                "card1": {
+                    "title": "プロダクション​",
+                    "content": "スマートな機能と魅力的なインターフェースを使用し、ユーザーエクスペリエンスを向上させるフレンドリーでインタラクティブな環境を構築したいと考えています。​",
+                    "text": "私たちの製品の紹介​",
+                    "highlight": "紹介",
+                    "img-text1": "KAWME –　ユーザーにオンラインコースを提供する教育テクノロジープラットフォームです。​​",
+                    "img-text2": "Friends - 大学生向けのソーシャルネットワーキングプラットフォームです。​​",
+                    "link": "続きを見る"
+                },
+                "card2": {
+                    "title": "OUTSOURCING",
+                    "content": "アウトソーシング革新的なソフトウェアシステムのコンサルティング、構築、最適化、および実行により、顧客の問題を解決し、企業規模の開発を促進するのをサポートします。​ ",
+                    "text": "私たちの製品の紹介",
+                    "highlight": "紹介",
+                    "img-text1": "Tokunabi - TORENTA会社の就活アプリです。",
+                    "img-text2": "ヴォ・グループ会社の人事管理アプリとウェブサイトです。​",
+                    "link": "続きを見る"
+                }
+
+            },
+            "flower-list": {
+                "item1": {
+                    "alt": "icon advise",
+                    "title": "コンサルティング​",
+                    "text": "INOTEKは貴社の業界に基づいて、ソフトウェアプロジェクト開発の方法を適切にコンサルティングし、案内します。​"
+                },
+                "item2": {
+                    "alt": "icon build",
+                    "title": "構築",
+                    "text": "次に、顧客の要望に応じて、ウェブサイトシステム、モバイルアプリケーション、管理システムの構築を進めていきます。"
+                },
+                "item3": {
+                    "alt": "icon run",
+                    "title": "実行​",
+                    "text": "最後に、完成したソフトウェアシステムの実行と保守のプロセスを顧客に向いて提供します。"
+                },
+                "item4": {
+                    "alt": "icon optimize",
+                    "title": "最適化",
+                    "text": "INOTEKは構築ステップが完了した後、ソフトウェアシステムが最高の方法で展開されることを保証するための最適化において顧客をサポートします​。"
+                }
+            },
+            "client-story": {
+                "title": "ĐÁNH GIÁ TỪ KHÁCH HÀNG",
+                "box-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque risus, ac tellus aliquam.Lorem ipsum dolor sit amet,consectetur adipiscing elit.Scelerisque risus,ac tellus aliquam.Lorem ipsum dolor sit amet,consectetur adipiscing elit.Scelerisque risus,ac tellus aliquam.Lorem ipsum dolor sit amet,consectetur adipiscing elit.Scelerisque risus,ac tellus aliquam."
+            }
+
+        },
+        "contact": {
+            "messages": {
+                "page-title": "お問い合わせ",
+                "page-header-title": "お問い合わせ",
+                "page-intro": "プロダクションとアウトソーシングに関する革新的なテクノロジーソリューションにご関心があったら、私たちにご連絡ください。",
+                "page-tag": "当社ホームページへのお問合せありがとうございます。",
+                "page-tag-fill": "以下のフォームにご記入ください。",
+                "page-tag-highlight": "記入",
+                "input-fullname": {
+                    "label": "お名前",
+                    "title": "お名前",
+                    "placeholder": "フルネームを入力してください。"
+                },
+                "input-email": {
+                    "label": "メールアドレス",
+                    "title": "メールアドレス",
+                    "placeholder": "例: name@example.com"
+                },
+                "input-company": {
+                    "label": "会社名",
+                    "title": "会社名",
+                    "placeholder": "会社名を入力してください。"
+                },
+                "input-phone": {
+                    "label": "電話",
+                    "title": "電話",
+                    "placeholder": "例:+840123456789​"
+                },
+                "input-message": {
+                    "label": "問い合わせ内容",
+                    "title": "問い合わせ内容",
+                    "placeholder": "要望を入力してください。"
+                }
+            },
+            "success-messages": {
+                "success-alert": {
+                    "header": "送信済!",
+                    "content": "あなたのリクエストは送信されました",
+                    "icon": "success"
+                },
+                "forgot-alert": {
+                    "header": "Information",
+                    "content": "The password reset information has been sent to your registered email address.<br> Let's enter the PIN code to reset the new password, please."
+                },
+                "sent-contact-successfully": "あなたのリクエストは送信されました"
+            },
+            "error-message": "ERROR",
+            "warning-messages": {}
+        },
+
+        "businesscontact": {
+            "messages": {
+                "page-title": "事業開発",
+                "page-header-title": "事業開発",
+                "page-intro": "各会社に向いて、高いセキュリティや 低コストや最高のエンジニアチームの よって、ハイテク通して、最高の創造・ 革新的な解決方法のサービスを提供しておる。",
+                "page-tag": "以下のフォームにご記入ください。",
+                "page-tag-highlight": "記入",
+                "input-fullname": {
+                    "label": "お名前",
+                    "title": "お名前",
+                    "placeholder": "フルネームを入力してください"
+                },
+                "input-email": {
+                    "label": "メールアドレス",
+                    "title": "メールアドレス",
+                    "placeholder": "例:name@example.com"
+                },
+                "input-phone": {
+                    "label": "電話",
+                    "title": "電話",
+                    "placeholder": "例: +840123456789"
+                },
+                "input-checkbox": {
+                    "label": "件名",
+                    "text": "興味のあるサービスの種類を選択してください",
+                    "item0": {
+                        "label": "コンサルティング",
+                        "value": "コンサルティング",
+                        "title": "コンサルティング"
+                    },
+                    "item1": {
+                        "label": "作成",
+                        "value": "作成",
+                        "title": "作成"
+                    },
+                    "item2": {
+                        "label": "運行",
+                        "value": "運行",
+                        "title": "運行"
+                    },
+                    "item3": {
+                        "label": "最適化",
+                        "value": "最適化",
+                        "title": "最適化"
+                    }
+                },
+                "input-message": {
+                    "label": "問い合わせ内容",
+                    "title": "問い合わせ内容",
+                    "placeholder": "問い合わせ内容..."
+                }
+            },
+            "success-messages": {
+                "success-alert": {
+                    "header": "送信済!",
+                    "content": "あなたの情報は記録されています",
+                    "icon": "success"
+                },
+                "forgot-alert": {
+                    "header": "Information",
+                    "content": "The password reset information has been sent to your registered email address.<br> Let's enter the PIN code to reset the new password, please."
+                }
+            },
+            "warning-messages": {}
+        },
+
+        "about": {
+            "messages": {
+                "page-title": "私たちに関しては",
+                "page-header-title": "私たちに関しては",
+                "page-intro": "最も熱心だし、やる気もある最高の 若手エンジニアチームと最新のテクノロジーによって、アウトソーシング やアプリケーションソフトウェアの開 発というサービスを提供しておる。",
+                "box-info": {
+                    "item1": {
+                        "alt": "OUR MISSION",
+                        "title": "ミッション",
+                        "text": "ハイテク通して、最高の創造・革新 的な解決方法のサービスを提供し ておる。"
+                    },
+                    "item2": {
+                        "alt": "OUR VALUES",
+                        "title": "価値観",
+                        "text": "私たちは熱心、創造、知恵、速業と いう４つの基準に基づいて、 最高 の製品とサービスを提供して おる。"
+                    },
+                    "item3": {
+                        "alt": "OUR VISION",
+                        "title": "ビジョン",
+                        "text": "創造的でハイテク革新的な会社に なり、世界へのハイテク移転に貢献 する。"
+                    }
+                },
+                "about-stories": {
+                    "text": "About Us",
+                    "highlight": "",
+                    "story-list": {
+                        "item1": {
+                            "title": "item1",
+                            "alt": "about-story",
+                            "name": "Miss. Kelly",
+                            "position": "CTY TINH ABCJHSJ",
+                            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                        },
+                        "item2": {
+                            "title": "item2",
+                            "alt": "about-story",
+                            "name": "Miss. Kelly",
+                            "position": "CTY TINH ABCJHSJ",
+                            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                        }
+                    }
+                },
+                "team-list": {
+                    "title": "Team",
+                    "list1": {
+                        "team-title": "Leadership",
+                        "team-member-list": {
+                            "item1": {
+                                "title": "item1",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item2": {
+                                "title": "item2",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item3": {
+                                "title": "item3",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item4": {
+                                "title": "item4",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            }
+                        }
+                    },
+                    "list2": {
+                        "team-title": "Frontend",
+                        "team-member-list": {
+                            "item1": {
+                                "title": "item1",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item2": {
+                                "title": "item2",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item3": {
+                                "title": "item3",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item4": {
+                                "title": "item4",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+
+        "blogs": {
+            "page-title": "ブログ",
+            "caption": "ブログ",
+            "tabs": {
+                "tab-blog": "ブログ {name}"
+            }
+        },
+        "our-projects": {
+            "page-title": "私たちのプロジェクト",
+            "caption": "私たちのプロジェクト",
+            "intro-text": "海外会社のニーズに応じて、ソフトウェアシステムの設計、作成、運用、保守といった最優化するプロジェクト開発に関するコンサルティングを受けておる。 また、私たちが優秀な人材を紹介するのは国内の人材を雇うよりも多くのお金を節約するのに役立つ",
+            "tabs": {
+                "tab-news": "ニュース",
+                "tab-events": "イベント",
+                "tab-client-stories": "クライアントのストーリー",
+                "tab-sharing": "シェアリング"
+            },
+            "projects": {
+                "project-1": {
+                    "bgAlt": "inotek プロジェクト",
+                    "logoAlt": "inotech-テキスト",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-2": {
+                    "bgAlt": "inotek プロジェクト",
+                    "logoAlt": "inotech-テキスト",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-3": {
+                    "bgAlt": "inotek プロジェクト",
+                    "logoAlt": "inotech-テキスト",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-4": {
+                    "bgAlt": "inotek プロジェクト",
+                    "logoAlt": "inotech-テキスト",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-5": {
+                    "bgAlt": "inotek プロジェクト",
+                    "logoAlt": "inotech-テキスト",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-6": {
+                    "bgAlt": "inotek プロジェクト",
+                    "logoAlt": "inotech-テキスト",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                }
+            }
+        },
+        "blog-detail": {
+            "sidebar": {
+                "title": "関連記事"
+            }
+        }
+    }
+}

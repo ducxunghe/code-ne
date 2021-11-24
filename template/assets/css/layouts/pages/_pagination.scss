@@ -1,0 +1,42 @@
+// =======================================
+// PAGINATION
+// =======================================
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+
+    a {
+        border: 1px solid var(--vivid-orange);
+        padding: 2px 10px;
+        margin: 0 .25em;
+        text-align: center;
+        color: var(--vivid-orange);
+
+        &.page-active, &:hover, &:focus {
+            background-color: var(--vivid-orange);
+            color: var(--black);
+        }
+    }
+
+    @include breakpoint(lg) {
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 65%;
+
+        a {
+            padding: 8px 16px;
+            margin: 1em 0 .4em 0;
+            color: var(--white);
+        }
+    }
+
+    @include breakpoint(xl) {
+        a {
+            margin: 1em 0 .3em 0;
+        }
+    }
+}
+

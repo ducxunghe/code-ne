@@ -1,0 +1,192 @@
+.cilent-stories{
+	position: relative;
+	box-sizing: border-box;
+	margin: 0 auto;
+	z-index: 0;
+
+	&::before{
+		visibility: hidden;
+		content: "";
+		width: 95%;
+		position: absolute;
+		margin: 0 auto;
+		top: 12px;
+		left: 50%;
+		transform: translate(-50%,);
+		border: solid 1px var(--vivid-orange);
+		z-index: -1;
+
+		@include breakpoint (lg){
+			visibility: visible;
+			height: 300px ;
+		}
+		@include breakpoint (xl){
+			height: 380px ;
+		}
+	}
+}
+
+.carousel{
+    
+	width: 100%;
+	margin: 0 auto;	
+
+	
+
+    .carousel-item{
+        position: relative;
+		padding-top: rem(110);
+
+		@include breakpoint(sm){
+			padding-top: 0;
+		}
+
+		&__content{
+			width: 90%;
+			margin: 0 auto;
+			border: 0;
+			outline: none;
+			background: var(--very-dark-gray-2);
+			box-shadow: 0px 0px 6px var(--black);
+
+			@include breakpoint(lg){
+				width: 80%;
+				padding-bottom: 1rem;
+				padding-top: 1rem;
+			}
+
+		}
+
+		&__image{
+			height: rem(260);
+			position: relative;
+			margin: 0 auto;
+			margin-top: rem(-120);
+
+			@include breakpoint(sm){
+				margin-top: 0;
+			}
+
+			@include breakpoint(xl){
+				height: rem(360);
+			}
+
+			
+			// z-index: 10;
+			// padding: 0 5em 0 5em;
+			
+			.rectangle{
+				position:absolute;
+				width: 14rem;
+				height: 14rem;
+				z-index: 1;
+				border: 1px solid #F36F21;
+				box-sizing: border-box;
+				left: 50%;
+				top: 4%;
+				transform: translate(-42%, 0%);
+
+				@include breakpoint(md){
+					visibility: hidden;
+				}
+			}
+			
+			.img{
+				width: rem(220);
+				position: absolute;
+				left: 50%;
+				top:53%;
+				transform: translate(-50%, -50%);
+				z-index: 10;
+
+				@include breakpoint(md){
+					left: 55%;
+					top: 50%;
+				}
+
+				@include breakpoint(xl){
+					width: rem(330);
+					left: 65%;
+				}
+			}
+		}
+		
+		&__title{
+			width: rem(220);
+			text-align: left;
+			color: var(--vivid-orange);
+			// padding: 0 3.4em 0 3.4em;
+			margin: 0 auto;
+			padding-bottom: .5rem;
+
+			@include breakpoint(sm){
+				text-align: left;
+				width: 100%;
+				margin-top: 1.5rem;
+			}
+
+			@include breakpoint (xl){
+				margin-top: 2rem;
+			}
+
+			
+			&--main{
+				display: block;
+				font-weight: 700;
+				line-height: 25px;
+				margin-bottom: .5em;
+
+				@include breakpoint (lg){
+					font-size: rem(32);
+				}
+			}
+			&--sub{
+				display: block;
+				font-size: rem(15);
+
+				@include breakpoint (lg){
+					font-size: rem(17);
+				}
+			}
+		}
+
+		&__subtitle{
+			color: var(--very-light-gray);
+			font-size: rem(15);
+			line-height: 23px;
+			text-align: left;
+			// padding: 0 5em .5em 5em;
+			width: rem(220);
+			margin: 0 auto;
+			padding-bottom: 1rem;
+
+			@include breakpoint(sm){
+				width: 90%;
+				margin: 0;
+			}
+
+			@include breakpoint(md){
+				width: 80%;
+			}
+
+			@include breakpoint(lg){
+				width: 70%;
+				font-size: rem(17);
+			}
+		}
+
+		
+    }
+	.carousel-control-prev{
+		display: none;
+	}
+
+	.carousel-control-next{
+		display: none;
+	}
+
+	.carousel-indicators{
+		position: absolute;
+		top: 100%;
+	}
+}

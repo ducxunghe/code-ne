@@ -1,0 +1,36 @@
+// =======================================
+// INTRO
+// =======================================
+.intro-text {
+
+	margin: 2em;
+	// margin-bottom: 0;
+	position: relative;
+	max-width: 900px;
+	
+	@include breakpoint(lg) {
+		position: absolute;
+		display: inline-block;
+		top: 50%;
+		margin-top: .5em;
+	}
+
+	.intro-wrapper {
+		text-align: center;
+		color: var(--vivid-orange);
+
+		@include breakpoint(lg) {
+			text-align: left;
+			margin-left: 5.9em;
+			padding-right: 20em;
+		}
+
+		@include breakpoint(xl) {
+			margin-left: 5.6em;
+			padding-right: 15em;
+		}
+	}
+	.intro-m{
+		margin-top: 50px;
+	}
+}

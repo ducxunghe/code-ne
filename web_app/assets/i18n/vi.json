@@ -1,0 +1,602 @@
+{
+    "common": {
+        "web-title": " | Innovation Technology Corp.",
+        "navigation": {
+            "home": "TRANG CHỦ",
+            "whoweserve": "KHÁCH HÀNG",
+            "weprovide": "SẢN PHẨM & DỊCH VỤ",
+            "ourprojects": "OUR PROJECTS",
+            "blog": "BLOGS",
+            "about": "ABOUT US",
+            "contact": "LIÊN HỆ"
+        },
+        "copyright": {
+            "copyright": "InnoTech Business Services. © 2021 All Rights Reserved.",
+            "terms-of-service": "Điều Khoản",
+            "privacy-policy": "Bảo Mật"
+        },
+        "client-stories": {
+            "title": "TRẢI NGHIỆM KHÁCH HÀNG",
+            "carousel-list": {
+                "item1": {
+                    "alt": "client-story",
+                    "main-title": "MainTitle",
+                    "sub-title": "SubTitle",
+                    "item-content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                },
+                "item2": {
+                    "alt": "client-story",
+                    "main-title": "MainTitle",
+                    "sub-title": "SubTitle",
+                    "item-content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                },
+                "item3": {
+                    "alt": "client-story",
+                    "main-title": "MainTitle",
+                    "sub-title": "SubTitle",
+                    "item-content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                }
+            }
+        },
+        "buttons": {
+            "ok": "Ok",
+            "cancel": "Cancel",
+            "close": "Close",
+            "select": "Select",
+            "back": "Back",
+            "next": "Next",
+            "previous": "Previous",
+            "delete": "Delete",
+            "edit": "Edit",
+            "add": "Add",
+            "default": "Default",
+            "active": "Active",
+            "deactive": "Deactive",
+            "save": "Save",
+            "search": "Search",
+            "change": "Change",
+            "send": "Gửi",
+            "apply": "Apply"
+        },
+        "validation": {
+            "error-message": {
+                "required": "Vui lòng không bỏ trống",
+                "invalid": "Vui lòng nhập {field} hợp lệ",
+                "least-choose": "Vui lòng chọn ít nhất 1 loại hình dịch vụ mà bạn quan tâm"
+            },
+            "message": "Something went wrong...!!!",
+            "badge-required": "Required",
+            "badge-optional": "Optional",
+            "message-required-input": "Field [$0] must have value.",
+            "message-required-select-box": "Field [$0] must be select one value.",
+            "message-required-multiple-select-box": "Field [$0] must be select one or more value.",
+            "message-pattern": "The format of field [$0] was incorrect. Let's enter it again, please.",
+            "message-max-length": "Field [$0] must be enter less or equal $1 characters.",
+            "message-min-max-length": "Field [$0] must be enter from $1 to $2 characters.",
+            "message-exactly-length": "Field [$0] must be enter $1 characters.",
+            "message-end-before-start-date": "Date of field [$0] must be before field [$1].",
+            "message-not-matched": "The entered value of field [$0] and [$1] must be the same.",
+            "message-exist": "The value of [$0] has already been takken. Please re-enter for another [$1].",
+            "message-not-exist": "The value of [$0] was incorrect. Let's enter another value.",
+            "password-unchange-error": "The new password must be different from the current password."
+        },
+        "field": {
+            "email": "Địa chỉ Email",
+            "phone": "Số điện thoại",
+            "fullname": "Họ và tên",
+            "company": "Công ty",
+            "message": "Lời nhắn"
+        },
+        "footer": {
+            "connection": "THÔNG TIN LIÊN HỆ",
+            "phone": "090 387 58 30",
+            "email": "kenvo@inotek.us",
+            "address": "3C Tôn Đức Thắng, Quận 1, TP. Hồ Chí Minh, Việt Nam​"
+        }
+    },
+    "pages": {
+        "homepage": {
+            "page-title": "Trang chủ",
+            "slogan": {
+                "main-slogan": "GOOD JOB",
+                "sub-slogan": "LOW COST"
+            },
+            "box-1": {
+                "title-text": "Bạn sẽ nhận được gì từ INOTEK?",
+                "highlight": "INOTEK",
+                "sub-title-text": "Với công nghệ hiện đại và nguồn nhân lực chất lượng cao, INOTEK luôn cố gắng mang đến cho khách hàng những sản phẩm và dịch vụ chất lượng tốt nhất với giá thành thấp. ",
+                "button-text": "Tìm hiểu thêm"
+            },
+            "box-2": {
+                "title-text": "Các dự án đa lĩnh vực",
+                "highlight": "Các dự án đa lĩnh vực",
+                "sub-title-text": "Với chuyên môn đa ngành và khả năng liên tục cập nhật những công nghệ mới nhất, chúng tôi luôn sẵn sàng hỗ trợ khách hàng trên con đường phát triển doanh nghiệp ở nhiều lĩnh vực khác nhau. ",
+                "button-text": "Tìm hiểu thêm"
+            },
+            "services": {
+                "title": "DỊCH VỤ",
+                "advise": {
+                    "text": "Tư Vấn",
+                    "alt": "tư vấn"
+                },
+                "build": {
+                    "text": "Xây Dựng",
+                    "alt": "xây dựng"
+                },
+                "run": {
+                    "text": "Vận Hành",
+                    "alt": "vận hành"
+                },
+                "optimize": {
+                    "text": "Tối Ưu",
+                    "alt": "tối ưu"
+                },
+                "provide-list": {
+                    "item-1": {
+                        "title": "Ứng dụng web",
+                        "subtitle": "Xây dựng một trang web chuyên nghiệp không chỉ tăng mức độ uy tín cho doanh nghiệp mà còn tối ưu hóa trải nghiệm của khách hàng."
+                    },
+                    "item-2": {
+                        "title": "Ứng dụng di động",
+                        "subtitle": "Vận hành và phát triển doanh nghiệp hiệu quả với ứng dụng di động tích hợp các tính năng thông minh và giao diện bắt mắt."
+                    },
+                    "item-3": {
+                        "title": "E-learning",
+                        "subtitle": "Tự động hóa, hệ thống hóa dữ liệu cho phép người dùng tự đăng ký và quản lý việc học. Cung cấp lượng bài giảng phong phú nhờ mạng lưới kết nối rộng rãi."
+                    },
+                    "item-4": {
+                        "title": "E-commerce",
+                        "subtitle": "Thay thế mô hình kinh doanh truyền thống với E-commerce  giúp doanh nghiệp tạo ra lợi thế cạnh tranh, tăng tỷ lệ chuyển đổi và thúc đẩy doanh số bán hàng."
+                    },
+                    "item-5": {
+                        "title": "Hệ thống nhân sự",
+                        "subtitle": "Hệ thống hỗ trợ quản trị nhân sự với các tính năng nổi bật như: điểm danh, chấm công, lưu trữ hồ sơ nhân viên, đánh giá năng lực định kỳ."
+                    },
+                    "item-6": {
+                        "title": "Hệ thống kế toán",
+                        "subtitle": "Giúp doanh nghiệp quản lý mức lương thưởng của nhân viên, tình hình tài chính và các khoản chi phí vận hành một cách hiệu quả.  "
+                    },
+                    "item-7": {
+                        "title": "DevOps",
+                        "subtitle": "Tạo ra quy trình làm việc chặt chẽ giữa bộ phận lập trình và bộ phận vận hành nhằm đảm bảo chất lượng sản phẩm và thời gian hoàn thành dự án."
+                    },
+                    "item-8": {
+                        "title": "Tư vấn thiết kế",
+                        "subtitle": "Nhận tư vấn thiết kế, hướng dẫn xây dựng, vận hành phần mềm và hỗ trợ chuyển giao công nghệ theo yêu cầu của khách hàng."
+                    }
+                }
+            },
+            "commitment": {
+                "title": "Chúng tôi cam kết",
+                "commitment-list": {
+                    "item-1": {
+                        "title": "Tiết kiệm chi phí",
+                        "subtitle": "Thấu hiểu nỗi lo về ngân sách, INOTEK cung cấp dịch vụ với mức giá phải chăng, đồng thời vẫn đảm bảo về chất lượng và tiến độ thực hiện dự án."
+                    },
+                    "item-2": {
+                        "title": "Giải pháp sáng tạo",
+                        "subtitle": "Nhằm hỗ trợ khách hàng trong việc phát triển và mở rộng doanh nghiệp, chúng tôi luôn nỗ lực mang đến các giải pháp sáng tạo nhất."
+                    },
+                    "item-3": {
+                        "title": "An toàn về bảo mật",
+                        "subtitle": "INOTEK luôn đặt việc bảo mật thông tin của đối tác lên hàng đầu, vì không chỉ cung cấp dịch vụ, chúng tôi còn muốn xây dựng sự tin tưởng và an tâm tuyệt đối. "
+                    },
+                    "item-4": {
+                        "title": "Đội ngũ chất lượng cao",
+                        "subtitle": "INOTEK sở hữu đội hình kỹ sư trẻ giỏi nhất, nhiệt huyết nhất cùng với chuyên môn đa ngành để có thể mang đến những công nghệ ưu việt."
+                    }
+                }
+            },
+            "partner": {
+                "title": "ĐỐI TÁC",
+                "box": {
+                    "title-text": "Nhận tư vấn và hợp tác ",
+                    "highlight": "Nhận tư vấn và hợp tác ",
+                    "sub-title-text": "Chúng tôi sẵn sàng tư vấn cũng như giải đáp mọi thắc mắc một cách cặn kẽ để có thể hỗ trợ và phát triển doanh nghiệp của bạn một cách tốt nhất.",
+                    "button-text": "Liên hệ"
+                }
+            },
+            "vision": {
+                "title": "Khẳng định vị thế của Việt Nam trên bản đồ công nghệ thế giới",
+                "highlight": "Khẳng định vị thế của Việt Nam trên bản đồ công nghệ thế giới",
+                "subtitle": "Với tầm nhìn trở thành doanh nghiệp tiên phong trong lĩnh vực đổi mới sáng tạo và chuyển giao công nghệ, Inotek ra đời mang trong mình mục tiêu kết nối giao thương công nghệ trong và ngoài nước. Đặc biệt là ở các quốc gia phát trển như Nhật, Mỹ và Úc. ",
+                "button": "Yêu cầu tư vấn"
+            },
+            "blog": {
+                "title": "BÀI VIẾT",
+                "read-more": "Xem thêm"
+            }
+        },
+        "term-of-service": {
+            "page-title": "Điều Khoản",
+            "header": "Điều Khoản"
+        },
+        "privacy-policy": {
+            "page-title": "Bảo Mật",
+            "header": "Bảo Mật"
+        },
+        "whoweserve": {
+            "page-title": "Khách hàng",
+            "banner": {
+                "caption": "KHÁCH HÀNG"
+            },
+            "intro-text": {
+                "text": "INOTEK cung cấp dịch vụ cho các doanh nghiệp đang tìm kiếm những giải pháp công nghệ hiện đại và đội ngũ kỹ sư chất lượng cao với chi phí thấp."
+            },
+            "pro-our": {
+                "button": {
+                    "view-more": "Xem thêm"
+                },
+                "item1": {
+                    "icon-alt": "icon product",
+                    "title": "PRODUCTION",
+                    "sub-title": "Xây dựng và vận hành các nền tảng công nghệ phần mềm.",
+                    "text": "Giới thiệu sản phẩm:",
+                    "highlight": "Giới thiệu",
+                    "content-text": "KAWME – Nền tảng công nghệ về giáo dục, cung cấp cho người dùng các khóa học trực tuyến."
+                },
+                "item2": {
+                    "icon-alt": "icon soucing",
+                    "title": "OUTSOURCING",
+                    "sub-title": "Tư vấn thiết kế, xây dựng, vận hành, bảo trì và tối ưu hóa hệ thống phần mềm cho các doanh nghiệp.",
+                    "text": "Giới thiệu sản phẩm:",
+                    "highlight": "Giới thiệu",
+                    "content-text": "Tokunabi - Ứng dụng tìm việc làm cho người Việt tại Nhật Bản của công ty TORENTA."
+                }
+            }
+        },
+        "weprovide": {
+            "page-title": "Trang What We Do",
+            "banner": {
+                "caption": "INOTEK CUNG CẤP"
+            },
+            "intro-text": {
+                "text": "Nhiều loại hình sản phẩm  và dịch vụ toàn diện, bao gồm tư vấn công nghệ, kinh doanh, kỹ thuật phần mềm."
+            },
+            "process": {
+                "title": "Quy Trình",
+                "content": "Chúng tôi tư vấn, xây dựng, tối ưu và vận hành các hệ thống phần mềm sáng tạo dựa trên yêu cầu của khách hàng. "
+            },
+            "product-and-service": {
+                "title": "SẢN PHẨM & DỊCH VỤ",
+                "content": "Bằng các giải pháp công nghệ hiện đại, chúng tôi hướng đến một thế giới tương lai thịnh vượng, nơi mà mọi người có thể kết nối và thực hiện công việc một cách dễ dàng.  ",
+                "card1": {
+                    "title": "PRODUCTION",
+                    "content": "Xây dựng và vận hành các nền tảng công nghệ hiện đại. Với các tính năng thông minh và giao diện bắt mắt, chúng tôi mong muốn xây dựng môi trường tương tác thân thiện giúp nâng cao trải nghiệm người dùng. ",
+                    "text": "Giới thiệu sản phẩm",
+                    "highlight": "Giới thiệu",
+                    "img-text1": "​KAWME – Nền tảng công nghệ về giáo dục, cung cấp cho người dùng các khóa học trực tuyến.",
+                    "img-text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque risus, ac tellus aliquam.",
+                    "link": "Xem thêm"
+                },
+                "card2": {
+                    "title": "OUTSOURCING",
+                    "content": " Tư vấn, xây dựng, tối ưu và vận hành các hệ thống​ phần mềm sáng tạo nhằm hỗ trợ giải khách hàng quyết những vấn đề nan giải trong việc vận hành cũng như thúc đẩy sự phát triển quy mô doanh nghiệp. ",
+                    "text": "Giới thiệu sản phẩm",
+                    "highlight": "Giới thiệu",
+                    "img-text1": "Tokunabi - Phần mềm tuyển dụng nhân sự của công ty TORENTA Nhật Bản.",
+                    "img-text2": "Ứng dụng quản lý nhân sự và website thông tin của công ty Vo Group.",
+                    "link": "Xem thêm"
+                }
+
+            },
+            "flower-list": {
+                "item1": {
+                    "alt": "icon advise",
+                    "title": "TƯ VẤN",
+                    "text": "Dựa trên lĩnh vực mà khách hàng đang kinh doanh, INOTEK sẽ tư vấn và hướng dẫn cách phát triển dự án phần mềm một cách phù hợp nhất. "
+                },
+                "item2": {
+                    "alt": "icon build",
+                    "title": "XÂY DỰNG",
+                    "text": "Tiếp đến, chúng tôi sẽ tiến hành việc xây dựng hệ thống website, ứng dụng điện thoại di động và hệ thống quản lý theo yêu cầu của khách hàng. "
+                },
+                "item3": {
+                    "alt": "icon run",
+                    "title": "VẬN HÀNH",
+                    "text": "Cuối cùng, chúng tôi sẽ thực hiện công đoạn vận hành và bảo trì hệ thống phầm mềm đã được hoàn thiện cho khách hàng."
+                },
+                "item4": {
+                    "alt": "icon optimize",
+                    "title": "TỐI ƯU",
+                    "text": "Sau khi xây dựng xong, INOTEK sẽ hỗ trợ  khách hàng tối ưu hóa để đảm bảo rằng hệ thống phần mềm sẽ được triển khai một cách tốt nhất."
+                }
+            },
+            "client-story": {
+                "title": "ĐÁNH GIÁ TỪ KHÁCH HÀNG",
+                "box-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque risus, ac tellus aliquam.Lorem ipsum dolor sit amet,consectetur adipiscing elit.Scelerisque risus,ac tellus aliquam.Lorem ipsum dolor sit amet,consectetur adipiscing elit.Scelerisque risus,ac tellus aliquam.Lorem ipsum dolor sit amet,consectetur adipiscing elit.Scelerisque risus,ac tellus aliquam."
+            }
+
+        },
+
+        "contact": {
+            "messages": {
+                "page-title": "Liên hệ",
+                "page-header-title": "Liên hệ",
+                "page-intro": "Nếu bạn cần tìm hiểu các giải pháp công nghệ về gia công và phát triển hệ thống phần mềm, hãy liên hệ với chúng tôi",
+                "page-tag": "Cảm ơn bạn đã ghé thăm",
+                "page-tag-fill": "Hãy điền thông tin vào biểu mẫu dưới đây",
+                "page-tag-highlight": "điền",
+                "input-fullname": {
+                    "label": "Họ và Tên",
+                    "title": "Họ và Tên",
+                    "placeholder": "Vui lòng điền đầy đủ họ và tên"
+                },
+                "input-email": {
+                    "label": "Email",
+                    "title": "Email",
+                    "placeholder": "Ví dụ: name@example.com"
+                },
+                "input-company": {
+                    "label": "Công ty",
+                    "title": "Công ty",
+                    "placeholder": "Vui lòng điền tên công ty của bạn"
+                },
+                "input-phone": {
+                    "label": "Điện thoại",
+                    "title": "Điện thoại",
+                    "placeholder": "Ví dụ: +840123456789"
+                },
+                "input-message": {
+                    "label": "Bạn có  điều gì muốn nhắn gửi đến INOTEK?",
+                    "title": "Bạn có  điều gì muốn nhắn gửi đến INOTEK?",
+                    "placeholder": "Vui lòng nhập yêu cầu của bạn"
+                }
+            },
+            "success-messages": {
+                "success-alert": {
+                    "header": "Đã gửi!",
+                    "content": "Yêu cầu của bạn đã được gửi",
+                    "icon": "success"
+                },
+                "forgot-alert": {
+                    "header": "Information",
+                    "content": "Giải pháp công nghệ hàng đầu cho doanh nghiệp với chi phí tối ưu, công nghệ hiện đại, đội ngũ kĩ sư chất lượng cao và đảm bảo an toàn về bảo mật"
+                },
+                "sent-contact-successfully": "Yêu cầu của bạn đã được gửi"
+            },
+            "error-message": "LỖI",
+            "warning-messages": {}
+        },
+
+        "businesscontact": {
+            "messages": {
+                "page-title": "Phát triển doanh nghiệp",
+                "page-header-title": "PHÁT TRIỂN DOANH NGHIỆP",
+                "page-intro": "Giải pháp công nghệ hàng đầu cho doanh nghiệp với chi phí tối ưu, công nghệ hiện đại, đội ngũ kỹ sư chất lượng cao và đảm bảo an toàn về bảo mật",
+                "page-tag": "Hãy điền thông tin vào biểu mẫu dưới đây",
+                "page-tag-highlight": "điền",
+                "input-fullname": {
+                    "label": "Họ và Tên",
+                    "title": "Họ và Tên",
+                    "placeholder": "Vui lòng điền đầy đủ họ và tên"
+                },
+                "input-email": {
+                    "label": "Email",
+                    "title": "Email",
+                    "placeholder": "Ví dụ: name@example.com"
+                },
+                "input-phone": {
+                    "label": "Điện thoại",
+                    "title": "Điện thoại",
+                    "placeholder": "Ví dụ: +840123456789"
+                },
+                "input-checkbox": {
+                    "label": "Bạn quan tâm đến mảng nào của INOTEK?",
+                    "text": "Đánh dấu vào những loại hình dịch vụ mà bạn quan tâm đến",
+                    "item0": {
+                        "label": "Tư vấn",
+                        "value": "tư vấn",
+                        "title": "tư vấn"
+                    },
+                    "item1": {
+                        "label": "Xây dựng",
+                        "value": "xây dựng",
+                        "title": "xây dựng"
+                    },
+                    "item2": {
+                        "label": "Vận hành",
+                        "value": "vận hành",
+                        "title": "vận hành"
+                    },
+                    "item3": {
+                        "label": "Tối ưu",
+                        "value": "tối ưu",
+                        "title": "tối ưu"
+                    }
+                },
+                "input-message": {
+                    "label": "Bạn có câu hỏi gì dành cho chúng tôi không?",
+                    "title": "Bạn có câu hỏi gì dành cho chúng tôi không?",
+                    "placeholder": "Vui lòng nhập yêu cầu của bạn"
+                }
+            },
+            "success-messages": {
+                "success-alert": {
+                    "header": "Đã gửi!",
+                    "content": "Thông tin của bạn đã được ghi nhận",
+                    "icon": "success"
+                },
+                "forgot-alert": {
+                    "header": "Information",
+                    "content": "The password reset information has been sent to your registered email address.<br> Let's enter the PIN code to reset the new password, please."
+                }
+            },
+            "warning-messages": {}
+        },
+
+        "about": {
+            "messages": {
+                "page-title": "ABOUT",
+                "page-header-title": "About Us",
+                "page-intro": "INOTEK tập trung vào lĩnh vực gia công và phát triển các hệ thống phần mềm sáng tạo dựa trên những công nghệ hiện đại nhất cùng với đội hình kỹ sư có trình độ chuyện môn cao. ",
+                "box-info": {
+                    "item1": {
+                        "alt": "OUR MISSION",
+                        "title": "SỨ MỆNH",
+                        "text": "Mang đến những giải pháp công nghệ hiện đại nhất nhưng vẫn đảm bảo tối ưu chi phí vận hành, thời gian triển khai cũng như chất lượng sản phẩm."
+                    },
+                    "item2": {
+                        "alt": "OUR VALUES",
+                        "title": "GIÁ TRỊ CỐT LÕI",
+                        "text": "Cung cấp sản phẩm và dịch vụ dựa trên 4 tiêu chí: TÂM HUYẾT, SÁNG TẠO, TINH ANH, NHANH NHẠY"
+                    },
+                    "item3": {
+                        "alt": "OUR VISION",
+                        "title": "TẦM NHÌN",
+                        "text": "Trở thành doanh nghiệp tiên phong trong lĩnh vực đổi mới sáng tạo và chuyển giao công nghệ giữa các quốc gia trên toàn thế giới."
+                    }
+                },
+                "about-stories": {
+                    "text": "About Us",
+                    "highlight": "",
+                    "story-list": {
+                        "item1": {
+                            "title": "item1",
+                            "alt": "about-story",
+                            "name": "Miss. Kelly",
+                            "position": "CTY TINH ABCJHSJ",
+                            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                        },
+                        "item2": {
+                            "title": "item2",
+                            "alt": "about-story",
+                            "name": "Miss. Kelly",
+                            "position": "CTY TINH ABCJHSJ",
+                            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                        }
+                    }
+                },
+                "team-list": {
+                    "title": "Team",
+                    "list1": {
+                        "team-title": "Leadership",
+                        "team-member-list": {
+                            "item1": {
+                                "title": "item1",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item2": {
+                                "title": "item2",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item3": {
+                                "title": "item3",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item4": {
+                                "title": "item4",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            }
+                        }
+                    },
+                    "list2": {
+                        "team-title": "Frontend",
+                        "team-member-list": {
+                            "item1": {
+                                "title": "item1",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item2": {
+                                "title": "item2",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item3": {
+                                "title": "item3",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item4": {
+                                "title": "item4",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+
+        "blogs": {
+            "page-title": "Trang bài viết",
+            "caption": "Bài viết",
+            "tabs": {
+                "tab-blog": "Bài viết {name}"
+            }
+        },
+        "our-projects": {
+            "page-title": "Trang Our Projects",
+            "caption": "Our Projects",
+            "intro-text": "Chúng tôi đã và đang phát triển các dự án tối ưu cho doanh nghiệp về xây dựng các nền tảng công nghệ phần mềm, tư vấn thiết kế, vận hành, bảo trì hệ thống phần mềm. Đồng thời hỗ trợ nguồn nhân lực chất lượng cao giúp tiết kiệm ngân sách",
+            "tabs": {
+                "tab-news": "News",
+                "tab-events": "Events",
+                "tab-client-stories": "Client Stories",
+                "tab-sharing": "Sharing"
+            },
+            "projects": {
+                "project-1": {
+                    "bgAlt": "Dự án inotek",
+                    "logoAlt": "logo-inotech",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-2": {
+                    "bgAlt": "Dự án inotek",
+                    "logoAlt": "logo-inotech",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-3": {
+                    "bgAlt": "Dự án inotek",
+                    "logoAlt": "logo-inotech",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-4": {
+                    "bgAlt": "Dự án inotek",
+                    "logoAlt": "logo-inotech",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-5": {
+                    "bgAlt": "Dự án inotek",
+                    "logoAlt": "logo-inotech",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-6": {
+                    "bgAlt": "Dự án inotek",
+                    "logoAlt": "logo-inotech",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                }
+            }
+        },
+        "blog-detail": {
+            "sidebar": {
+                "title": "Related Posts"
+            }
+        }
+    }
+}

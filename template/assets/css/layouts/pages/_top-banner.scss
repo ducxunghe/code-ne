@@ -1,0 +1,117 @@
+// =======================================
+// TOP-BANNER
+// =======================================
+.top-banner {
+    height: 100%;
+    position: relative;
+    background-position: center!important;
+    background-size: cover!important;
+
+    &__caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+
+        h1 {
+            line-height: 30px;
+
+            @include breakpoint(md) {
+                font-size: rem(40);
+                line-height: 58px;
+                font-weight: 500;
+            }
+        }
+
+        .top-banner-subtitle{
+            visibility: hidden;
+            font-size: rem(36);
+            font-weight: 400;
+            line-height: 52px;
+            color: var(--vivid-orange);
+
+        }
+    }
+    
+    @include breakpoint(lg) {
+        &::after {
+            content: "";
+            display: block;
+            margin-left: 8em;
+            height: 100%;
+            width: 450px;
+            background: var(--black);
+            opacity: .8;
+        }
+
+        &__caption {
+            text-align: left;
+            top: 40%;
+            margin-left: 10em;
+            z-index: 5;
+            width: 35%;
+        }
+
+        .top-banner-subtitle{
+            visibility: visible;
+        }
+    }
+
+    @include breakpoint(xl) {
+        &::after {
+           width: 540px;
+        }
+
+        &__caption {
+
+            h1 {
+                font-size: rem(40);
+            }
+        }
+    }
+}
+
+.top-bannerHome {
+    height: 100%;
+    position: relative;
+    background-position: center!important;
+    background-size: cover!important;
+
+    &__caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+
+        h1 {
+            line-height: 30px;
+
+            @include breakpoint(md) {
+                font-size: rem(35);
+                line-height: 58px;
+            }
+        }
+    }
+    
+    @include breakpoint(lg) {
+
+        &__caption {
+            text-align: left;
+            top: 40%;
+            margin-left: 10em;
+            z-index: 5;
+        }
+    }
+
+    @include breakpoint(xl) {
+
+        &__caption {
+
+            h1 {
+                font-size: rem(40);
+            }
+        }
+    }
+}

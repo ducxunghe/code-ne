@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inotek Blog Template</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./assets/css/vendor/font-awesome/font-awesome-v5.15.4.css">
+    <!-- bootstrap -->
+    <link href="./assets/css/vendor/bootstrap/bootstrap-v5.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- animate -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+      .top-banner {
+        background: linear-gradient(90.36deg, rgba(0, 0, 0, 0.6) 28.21%, rgba(255, 122, 0, 0.6) 104.46%), url(./assets/imgs/banners/banner-blog.png) no-repeat;
+      }
+
+      @media screen and (min-width: 768px) {
+        .top-banner {
+          background: url(./assets/imgs/banners/banner-blog-PC.jpg);
+        }
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container">
+        <a href="#" class="navbar-brand"><img src="./assets/imgs/logos/logo-inotek-k-nen.png" alt="logo"></a>
+
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button> -->
+
+          <div class="toggle" data-bs-toggle="collapse" data-bs-target="#navbarText">
+            <span></span><span></span><span></span><span></span>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="whoWeServe.html">WHO WE SERVE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="whatWeDo.html">WHAT WE DO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ourProjects.html">OUR PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blogs.html">BLOGS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="language">
+              <p>EN | JA</p>
+            </div>
+      </div>
+  </nav>
+  </header>
+
+  <!-- Banner -->
+  <section class="top-banner">
+    <div class="top-banner__caption">
+      <h1 class="uppercase">Blogs</h1>
+    </div>
+  </section>
+  <!-- End Banner -->
+  
+  <!-- Intro Text -->
+  <section class="intro-text">
+    <div class="container animate__animated animate__fadeInDown wow bounce"  data-wow-delay="0.5s">
+      <div class="intro-wrapper">
+        <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit ame</p>
+      </div>
+    </div>
+  </section>
+  <!-- End Intro Text -->
+
+  <!-- Blog Tab -->
+  <section class="blog">
+    <div class="container">
+      <!-- Tab links -->
+      <main role="main">
+        <div class="tab">
+          <button class="tab__links uppercase active" data-tab="blog1">Tag 1</button>
+          <button class="tab__links uppercase" data-tab="blog2">Tag 2</button>
+          <button class="tab__links uppercase" data-tab="blog3">Tag 3</button>
+        </div>
+
+        <!-- Tab content -->
+        <!-- Blog 1 -->
+        <div id="blog1" class="tab__content active"> 
+          <div class="tab__box animate__animated animate__fadeInLeft wow bounce" data-wow-delay="0.5s" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-1.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament consectetur adipiscing dolor sit amet .</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+      
+          <div class="tab__box animate__animated animate__fadeInRight wow bounce" data-wow-delay="0.5s" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-2.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Sit ament consectetur adipiscing dolor sit amet .</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        
+          <div class="tab__box animate__animated animate__fadeInLeft wow bounce" data-wow-delay="0.5s" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        
+          <div class="tab__box d-none d-lg-block animate__animated animate__fadeInRight wow bounce" data-wow-delay="0.5s" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        
+          <div class="tab__box d-none d-lg-block animate__animated animate__fadeInLeft wow bounce" data-wow-delay="0.5s" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Sit ament consectetur adipiscing dolor sit amet</h2>
+            <p class="tab__box__description">Adipiscing elit. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+          
+          <div class="tab__box d-none d-lg-block animate__animated animate__fadeInRight wow bounce" data-wow-delay="0.5s" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament</h2>
+            <p class="tab__box__description">Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Blog 1 -->
+
+        <!-- Blog 2 -->
+        <div id="blog2" class="tab__content">
+          <div class="tab__box" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-1.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament consectetur adipiscing dolor sit amet .</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+      
+          <div class="tab__box" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-2.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Sit ament consectetur adipiscing dolor sit amet .</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        
+          <div class="tab__box" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        
+          <div class="tab__box d-none d-lg-block" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        
+          <div class="tab__box d-none d-lg-block" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Sit ament consectetur adipiscing dolor sit amet</h2>
+            <p class="tab__box__description">Adipiscing elit. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+          
+          <div class="tab__box d-none d-lg-block" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament</h2>
+            <p class="tab__box__description">Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        </div>
+        <!-- End Blog 2 -->
+
+        <!-- Blog 3 -->
+        <div id="blog3" class="tab__content">
+          <div class="tab__box" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-1.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament consectetur adipiscing dolor sit amet .</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+      
+          <div class="tab__box" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-2.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Sit ament consectetur adipiscing dolor sit amet .</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        
+          <div class="tab__box" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        
+          <div class="tab__box d-none d-lg-block" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament</h2>
+            <p class="tab__box__description">Lorem ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        
+          <div class="tab__box d-none d-lg-block" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Sit ament consectetur adipiscing dolor sit amet</h2>
+            <p class="tab__box__description">Adipiscing elit. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+          
+          <div class="tab__box d-none d-lg-block" onclick="window.location='blogDetail.html'">
+            <img src="./assets/imgs/box-images/box-image-3.png" alt="inotek blog" class="tab__box__img">
+            <h2 class="subtitle">Lorem ipsum dolor sit amet, sit ament</h2>
+            <p class="tab__box__description">Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet, ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="tab__box__info caption">
+              <p class="tab__box__author">By <span class="orange">Inotek</span></p>
+              <p class="tab__box__date"><img src="./assets/imgs/icons/date-tab-icon.png"/>20 July 2021</p>
+            </div>
+          </div>
+        </div>
+	<!-- End Blog 3 -->
+        <!-- Navigation -->
+        <div class="pagination" id="myPagination">
+          <a href="#prev" class="btn-prev">&lt;</a>
+          <a href="#page1" class="page page-active" >1</a>
+          <a href="#page2" class="page">2</a>
+          <a href="#page3" class="page">3</a>
+          <a href="#next" class="btn-next">&gt;</a>
+        </div>
+        <!-- End Navigation -->
+      </main>
+    </div>
+  </section>
+  <!-- End Blog Tab -->
+  
+  <div style="height: 100px;"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <img class="footer__logo" src="./assets/imgs/logos/logo-inotech-footer.png" alt="Inotech Logo">
+      <div class="footer__nav">
+        <div class="footer__nav__left">
+            <a href="#" target="_blank" class="footer__nav__link uppercase">
+              <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> Who We Serve
+            </a>
+            <a href="#" target="_blank" class="footer__nav__link uppercase">
+              <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> What We Do
+            </a>
+            <a href="#" target="_blank" class="footer__nav__link uppercase">
+              <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> Our Projects
+            </a>
+        </div>
+        <div class="footer__nav__right">
+            <a href="#" target="_blank" class="footer__nav__link uppercase">
+              <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> Blogs
+            </a>
+            <a href="#" target="_blank" class="footer__nav__link uppercase">
+              <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> About Us
+            </a>
+            <a href="#" target="_blank" class="footer__nav__link uppercase">
+              <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> Contact Us
+            </a>        
+        </div>
+      </div>
+
+      <div class="footer__group">
+        <div class="footer__group__info">
+            <h2>Connection</h2>
+            <p><img src="./assets/imgs/icons/icon-mail.svg" alt="">ouremail@gmail.com</p>
+            <p><img src="./assets/imgs/icons/icon-phone.svg" alt="">0123456789</p>
+            <p><img src="./assets/imgs/icons/icon-location.svg" alt="">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>            
+        </div>
+
+        <div class="footer__group__social">
+            <a href="" target="_blank">
+            <img src="./assets/imgs/icons/icon1.svg" alt="">
+            </a>
+            <a href="" target="_blank">
+            <img src="./assets/imgs/icons/icon2.svg" alt="">
+            </a>
+            <a href="" target="_blank">
+            <img src="./assets/imgs/icons/icon3.svg" alt="">
+            </a>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <p>InnoTech  Business Services. © 2021 All Rights Reserved.</p>
+        <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- JS libraries -->
+  <script src="./assets/js/vendor/popper/popper-v2.9.2.js"></script>
+  <script src="./assets/js/vendor/bootstrap/bootstrap-v5.1.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+  <script> new WOW().init(); </script>
+  <script>
+    // =======================================
+    // Pagination
+    // =======================================
+    const pagination = document.querySelector('#myPagination');
+    const btnNext = document.querySelector(".btn-next");
+    const btnPrev = document.querySelector(".btn-prev");
+    const pages = document.getElementsByClassName('page');
+    const currentPage = document.getElementsByClassName("page-active");
+
+    // Default not show
+    btnPrev.style.display = "none";
+
+    // Loop through the buttons and add the active class to the current/clicked button
+    for (let i = 0; i < pages.length; i++) 
+    {
+      pages[i].addEventListener("click", function() 
+      {
+        currentPage[0].classList.remove("page-active");
+        this.className += " page-active";
+        
+        const activePage = Number(document.querySelector('.page-active').innerHTML);
+
+        activePage === 1 ? btnPrev.style.display = "none" : btnPrev.style.display = "block";
+        activePage === pages.length ? btnNext.style.display = "none" : btnNext.style.display = "block";
+      });
+    }
+  </script>
+  </body>
+</html>

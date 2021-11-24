@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "web_app"
+		},
+		{
+			"path": "template"
+		}
+	],
+	"settings": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"eslint.probe": [
+		  "javascript",
+		  "javascriptreact",
+		  "vue"
+		],
+		"editor.formatOnSave": false,
+		"editor.codeActionsOnSave": [
+		  "source.formatDocument",
+		  "source.fixAll.eslint"
+		],
+		"vetur.validation.template": true,
+		"vue/require-default-prop": "on",
+		"[vue]": {
+		  "editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"[javascript]": {
+		  "editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "template",
+	},
+	"extensions": {
+		"recommendations": [
+			"eamodio.gitlens",
+			"esbenp.prettier-vscode",
+			"eg2.tslint",
+			"dbaeumer.vscode-eslint",
+			"octref.vetur"
+		]
+	}
+}

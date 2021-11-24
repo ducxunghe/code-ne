@@ -1,0 +1,62 @@
+.services{
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	z-index: 0;
+	&::before{
+		visibility: hidden;
+		width: 95%;
+		position: absolute;
+		content: "";
+		top: 20px;
+		left: 30px;
+		right: 30px;
+		bottom: 70px;
+		border: 1px solid var(--vivid-orange);
+		z-index: -1;
+		@include breakpoint (md){
+			visibility: visible;
+		}
+	}
+	.serveices__list{
+		margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+		@include breakpoint(md){
+			width: 80%;
+            grid-template-columns: repeat(4, 1fr);
+        }
+		@include breakpoint(lg){
+			width: 60%;
+            grid-template-columns: repeat(4, 1fr);
+        }
+	}
+	.serveices__item{
+		padding: 2rem 1rem 1rem 1rem;
+		text-align: center;
+		margin: 0 auto;
+		@include breakpoint(md){
+			margin: 10px;
+			background-color: var(--very-dark-gray-4);
+			padding: 2rem 1.5rem 1rem 1.5rem;
+		}
+		@include breakpoint(lg){
+			background-color: var(--very-dark-gray-4);
+			padding: 2rem 1.5rem 1rem 1.5rem;
+		}
+		@include breakpoint(xl){
+			background-color: var(--very-dark-gray-4);
+			padding: 2.5rem;
+		}
+	}
+	.serveices__name{
+		margin-top: 10px;
+		font-size: 1rem;
+		font-weight: 900;
+		@include breakpoint(xl){
+			margin-top: 15px;
+		}
+	}
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imfomation Collection</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./assets/css/vendor/font-awesome/font-awesome-v5.15.4.css">
+    <!-- bootstrap -->
+    <link href="./assets/css/vendor/bootstrap/bootstrap-v5.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- animate -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- css  -->
+    <style>
+      .top-banner {
+        background: linear-gradient(90.36deg, rgba(0, 0, 0, 0.6) 28.21%, rgba(255, 122, 0, 0.6) 104.46%), url(./assets/imgs/banners/information_collect.png) no-repeat;
+      }
+
+      @media screen and (min-width: 769px) {
+        .top-banner {
+          background: url(./assets/imgs/banners/banner-infomation-pc.png);
+        }
+      }
+    </style>
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrap">
+        <div class="container">
+          <a href="#" class="navbar-brand"><img src="./assets/imgs/logos/logo-inotek-k-nen.png" alt="logo"></a>
+
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+            </button> -->
+
+            <div class="toggle" data-bs-toggle="collapse" data-bs-target="#navbarText">
+              <span></span><span></span><span></span><span></span>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="whoWeServe.html">WHO WE SERVE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="whatWeDo.html">WHAT WE DO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ourProjects.html">OUR PROJECTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blogs.html">BLOGS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="language">
+                <p>EN | JA</p>
+              </div>
+        </div>
+    </nav>
+    </header>
+
+      <!-- Banner -->
+      <section class="top-banner">
+        <div class="top-banner__caption">
+          <h1 class="uppercase">
+            <span> BUILD YOUR DREAM </span> <br>BUSINESS
+          </h1>
+          <!-- <p class="top-banner-subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dolore quod hic similique totam.</p> -->
+        </div>
+      </section>
+
+
+        <!-- Intro Text -->
+    <section class="intro-text">
+      <div class="container animate__animated animate__fadeInDown wow bounce" data-wow-delay="0.5s">
+        <div class="intro-wrapper">
+          <p class="intro intro-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit ame</p>
+        </div>
+      </div>
+    </section>
+  <!-- End Intro Text -->
+
+
+    <!-- <div class="intro">
+      <h1 class="intro__mobile"><span>We’re Ready To Solve</span> <br> <span>Your Support Needs</span></h1>
+    </div>
+     -->
+    <div class="m-5"></div>
+
+    <section class="infomation-form">
+      <div class="infomation">
+        <div class="container animate__animated animate__fadeIn wow bounce" data-wow-delay="0.5s">
+          <h2 class="infomation__title">Please <span>fill out</span> below form </h2>
+        </div>
+
+        <div class="m-5"></div>
+
+        <div class="infomation__form">
+          <form class="form">
+            <div class="row animate__animated animate__fadeIn wow bounce" data-wow-delay="0.5s">
+              <div class="form__group col-12">
+                  <label for="name" class="form__label">
+                    <span> <div class="form__icon"></div></span>
+                    Full name *
+                  </label>
+                  <input id="name" type="text" class="form__input" placeholder="full name" required>
+                  <p class="form__warning">Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            <div class="row animate__animated animate__fadeIn wow bounce"  data-wow-delay="0.5s">
+              <div class="form__group  col-lg-6">
+                <label for="email" class="form__label"><span> <div class="form__icon"></div></span>Email *</label>
+                <input id="email" type="email" class="form__input" placeholder="email" required>
+                <p class="form__warning">Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+              <div class="form__group  col-lg-6">
+                <label for="email" class="form__label"><span> <div class="form__icon"></div></span> Phone *</label>
+                <input id="phone" type="text" class="form__input" placeholder="Phone" required>
+                <p class="form__warning">Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            <div class="row animate__animated animate__fadeIn wow bounce"  data-wow-delay="0.5s">
+              <div class="form__group col-12">
+                <lable class="form__label">
+                  <span> <div class="form__icon"></div></span>
+                  What are you interested in about?
+                  <p>Check all types of support that interest you*</p>
+                </lable>
+                <!-- checkbox -->
+
+              <div class="form__checkbox-group animate__animated animate__fadeIn wow bounce" data-wow-delay="0.5s">
+                  <input type="checkbox" class="form__checkbox-input" id="1" name="infomation">
+
+                  <label for="1" class="form__checkbox-label">
+                    <i class="icon-checkbox"></i>
+                    Lorem ipsum dolor sit amet.
+                  </label>
+              </div>
+              <div class="form__checkbox-group animate__animated animate__fadeIn wow bounce" data-wow-delay="0.5s">
+                  <input type="checkbox" class="form__checkbox-input" id="2" name="infomation">
+
+                  <label for="2" class="form__checkbox-label">
+                    <i class="icon-checkbox"></i>
+                    Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+              <div class="form__checkbox-group animate__animated animate__fadeIn wow bounce" data-wow-delay="0.5s">
+                  <input type="checkbox" class="form__checkbox-input" id="3" name="infomation">
+
+                  <label for="3" class="form__checkbox-label">
+                    <i class="icon-checkbox"></i>
+                    Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+              <div class="form__checkbox-group animate__animated animate__fadeIn wow bounce" data-wow-delay="0.5s">
+                  <input type="checkbox" class="form__checkbox-input" id="4" name="infomation">
+
+                  <label for="4" class="form__checkbox-label">
+                    <i class="icon-checkbox"></i>
+                    Lorem ipsum dolor sit amet.
+                </label>
+              </div>
+
+              </div>
+            </div>
+            <div class="row animate__animated animate__fadeIn wow bounce"data-wow-delay="0.5s">
+              <div class="form__group col-12">
+                <lable class="form__label">
+                  <span> <div class="form__icon"></div></span>
+                  Do you have any question for us?
+                </lable>
+                <textarea class="form__textarea-input" type="text" name="" id="" cols="" rows="8"></textarea>
+
+              </div>
+            </div>
+            <div class="row animate__animated animate__fadeIn wow bounce" data-wow-delay="0.5s">
+              <div id="form__button" class="form__button col-12">
+                  <a href="#popup" class="cta-btn">Send</a>
+              </div>
+            </div>
+            <!-- Popup -->
+            <div id="popup" class="popup">
+              <div class="popup__content">
+                <div class="cancel">
+                  <a href="#form__button">x</a>
+                </div>
+                <div class="popup__inner">
+                  <p class="popup__title">Sent successfully!</p>
+                  <p class="popup__subtitle">Thank you! Your  information was sent to InnoTech. We will contact you soon.</p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <img class="footer__logo" src="./assets/imgs/logos/logo-inotech-footer.png" alt="Inotech Logo">
+        <div class="footer__nav">
+          <div class="footer__nav__left">
+              <a href="#" target="_blank" class="footer__nav__link uppercase">
+                <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> Who We Serve
+              </a>
+              <a href="#" target="_blank" class="footer__nav__link uppercase">
+                <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> What We Do
+              </a>
+              <a href="#" target="_blank" class="footer__nav__link uppercase">
+                <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> Our Projects
+              </a>
+          </div>
+          <div class="footer__nav__right">
+              <a href="#" target="_blank" class="footer__nav__link uppercase">
+                <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> Blogs
+              </a>
+              <a href="#" target="_blank" class="footer__nav__link uppercase">
+                <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> About Us
+              </a>
+              <a href="#" target="_blank" class="footer__nav__link uppercase">
+                <img src="./assets/imgs/icons/icon-arrow.svg" alt=""> Contact Us
+              </a>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__group__info">
+              <h2>Connection</h2>
+              <p><img src="./assets/imgs/icons/icon-mail.svg" alt="">ouremail@gmail.com</p>
+              <p><img src="./assets/imgs/icons/icon-phone.svg" alt="">0123456789</p>
+              <p><img src="./assets/imgs/icons/icon-location.svg" alt="">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+          </div>
+
+          <div class="footer__group__social">
+              <a href="" target="_blank">
+              <img src="./assets/imgs/icons/icon1.svg" alt="">
+              </a>
+              <a href="" target="_blank">
+              <img src="./assets/imgs/icons/icon2.svg" alt="">
+              </a>
+              <a href="" target="_blank">
+              <img src="./assets/imgs/icons/icon3.svg" alt="">
+              </a>
+          </div>
+        </div>
+
+        <div class="footer__copyright">
+          <p>InnoTech  Business Services. © 2021 All Rights Reserved.</p>
+          <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+      </div>
+    </footer>
+
+  <!-- JS libraries -->
+  <script src="./assets/js/vendor/popper/popper-v2.9.2.js"></script>
+  <script src="./assets/js/vendor/bootstrap/bootstrap-v5.1.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+  <script> new WOW().init(); </script>
+</body>
+</html>

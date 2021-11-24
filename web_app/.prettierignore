@@ -1,0 +1,11 @@
+# Ignore artifacts:
+dist
+node_modules
+test
+
+# Ignore all HTML files:
+*.html
+
+# Ignore all CSS SCSS files:
+*.css
+*.scss

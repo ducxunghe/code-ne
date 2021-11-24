@@ -1,0 +1,231 @@
+// =======================================
+// FOOTER
+// =======================================
+.footer {
+
+    margin-top: 5em;
+    padding: 2em 0;
+    background: var(--black);
+
+    .container {
+        position: relative;
+    }
+
+    &::before {
+        content: "";
+        display: block;
+        background-color: var(--black);
+        width: 100%;
+        height: 2px;
+        margin-bottom: 2em;
+    } 
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    &__nav {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        padding: 1em 0.8em;
+        margin: 2em 0 1em;
+
+        &__left {
+            grid-column: 1 / 6;
+        }
+
+        &__right {
+            grid-column: 8 / -1;
+        }
+
+        &__link {
+            display: flex;
+            font-weight: 400;
+            color: var(--very-light-gray);
+            padding: .3em 0;
+            @include transition-ease;
+
+            > img {
+                margin-right: .5em;
+            }
+
+            &:hover {
+                color: var(--vivid-orange);
+            }
+        }
+    }
+
+    &__group {
+        padding: 1em 0.8em;
+
+        &__info {
+            
+            margin-bottom: 2em;
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                line-height: 25px;
+                color: var(--vivid-orange);                
+            }
+
+            p {
+                display: flex;
+                align-items: flex-start;
+                font-weight: 400;
+
+                > img {
+                    padding-top: .5em;
+                    padding-right: 1em;
+                }
+            }
+        }
+
+        &__social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            a {
+                padding: 1em;
+            }
+        }
+    }
+
+    &__copyright {
+
+        p {
+            font-size: rem(14);
+            font-weight: 300;
+            line-height: 20.27px;
+            text-align: center;
+            color: var(--very-light-gray);
+            margin-bottom: 0;
+
+            a {
+                color: var(--very-light-gray);
+
+                &:hover, &:focus {
+                    color: var(--vivid-orange);
+                }
+            }
+        }
+    }
+
+    @include breakpoint(md) {
+        
+        &__nav {
+            display: flex;
+            justify-content: center;
+
+            &__left {
+                display: flex;
+            }
+
+            &__right {
+                display: flex;
+            }
+
+            &__link {
+                padding: 0 1em;
+                white-space: nowrap;
+
+                > img {
+                    display: none;
+                }
+            }
+        }
+
+        &__group {
+    
+            &__info {
+                margin-left: -1.5em;
+            }
+        }
+    }
+
+    @include breakpoint(lg) {
+
+        &__logo {
+            content: url("../imgs/logos/logo-inotek-k-nen.png");
+            position: absolute;
+            top: 33%;
+            right: 6%;
+        }
+
+        &__nav {
+
+            margin-bottom: 3em;
+
+            &__link {
+                padding: 0 1.5em;
+                font-weight: 700;
+            }
+        }
+
+        &__group {
+    
+            &__info {
+                margin-left: 2.8em;
+
+                h2 {
+                    margin-bottom: 1em;
+                }
+
+                p {
+                    align-items: center;
+                    font-size: rem(17);
+
+                    &:nth-child(1) {
+                        order: 3;
+                    }
+
+                    &:nth-child(2) {
+                        order: 1;
+                    }
+
+                    br {
+                        display: none;
+                    }
+
+                    > img {
+                        width: 35px;
+                    }
+                }
+            }
+
+            &__social {
+                margin-top: 3em;
+            }
+        }
+    }
+
+    @include breakpoint(xl) {
+
+        &__logo {
+            right: 7%;
+        }
+
+        &__nav {
+
+            &__link {
+                padding: 0 1.8em;
+                font-size: rem(20);
+                font-weight: 700;
+            }
+        }
+
+        &__group {
+    
+            &__info {
+                margin-left: .2em;
+            }
+
+            &__social {
+                margin-top: 5em;
+            }
+        }
+    }
+}

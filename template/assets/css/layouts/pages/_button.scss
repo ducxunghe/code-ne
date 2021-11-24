@@ -1,0 +1,18 @@
+// =======================================
+// BUTTON
+// =======================================
+.cta-btn {
+	width: fit-content;
+	border: 1px solid var(--vivid-orange);
+	padding: .4em 2em;
+	font-weight: bold;	
+	margin: 1em auto;
+	color: var(--vivid-orange);
+	background: transparent;
+	@include transition-ease;
+
+	&:hover, &:focus {
+		background: var(--vivid-orange);
+		color: var(--white);
+	}
+}

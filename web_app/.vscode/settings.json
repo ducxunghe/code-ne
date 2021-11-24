@@ -1,0 +1,14 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"eslint.probe": ["javascript", "javascriptreact", "vue"],
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"],
+	"vetur.validation.template": false,
+	"vue/require-default-prop": "off",
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

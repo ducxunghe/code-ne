@@ -1,0 +1,9 @@
+//content duoi banner
+.content{
+    text-align: center;
+    line-height: 2.5rem;
+    &__text{
+        font-size: rem(25);
+        color: var(--vivid-orange);
+    }
+}

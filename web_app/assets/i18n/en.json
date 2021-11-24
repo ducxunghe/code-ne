@@ -1,0 +1,605 @@
+{
+    "common": {
+        "web-title": " | Innovation Technology Corp.",
+        "navigation": {
+            "home": "HOME",
+            "whoweserve": "WHO WE SERVE",
+            "weprovide": "WE PROVIDE",
+            "ourprojects": "OUR PROJECTS",
+            "blog": "BLOGS",
+            "about": "ABOUT US",
+            "contact": "CONTACT US"
+        },
+        "copyright": {
+            "copyright": "InnoTech Business Services. © 2021 All Rights Reserved.",
+            "terms-of-service": "Terms of Service",
+            "privacy-policy": "Privacy Policy"
+        },
+        "client-stories": {
+            "title": "Client Stories",
+            "carousel-list": {
+                "item1": {
+                    "alt": "client-story",
+                    "main-title": "MainTitle",
+                    "sub-title": "SubTitle",
+                    "item-content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                },
+                "item2": {
+                    "alt": "client-story",
+                    "main-title": "MainTitle",
+                    "sub-title": "SubTitle",
+                    "item-content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                },
+                "item3": {
+                    "alt": "client-story",
+                    "main-title": "MainTitle",
+                    "sub-title": "SubTitle",
+                    "item-content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                }
+            }
+        },
+        "buttons": {
+            "ok": "Ok",
+            "cancel": "Cancel",
+            "close": "Close",
+            "select": "Select",
+            "back": "Back",
+            "next": "Next",
+            "previous": "Previous",
+            "delete": "Delete",
+            "edit": "Edit",
+            "add": "Add",
+            "default": "Default",
+            "active": "Active",
+            "deactive": "Deactive",
+            "save": "Save",
+            "search": "Search",
+            "change": "Change",
+            "send": "Send",
+            "apply": "Apply"
+        },
+        "validation": {
+            "error-message": {
+                "required": "This field is required",
+                "invalid": "Enter a valid {field}",
+                "least-choose": "Please choose at least one type of support that you are interested in"
+            },
+            "message": "Something went wrong...!!!",
+            "badge-required": "Required",
+            "badge-optional": "Optional",
+            "message-required-input": "Field [$0] must have value.",
+            "message-required-select-box": "Field [$0] must be select one value.",
+            "message-required-multiple-select-box": "Field [$0] must be select one or more value.",
+            "message-pattern": "The format of field [$0] was incorrect. Let's enter it again, please.",
+            "message-max-length": "Field [$0] must be enter less or equal $1 characters.",
+            "message-min-max-length": "Field [$0] must be enter from $1 to $2 characters.",
+            "message-exactly-length": "Field [$0] must be enter $1 characters.",
+            "message-end-before-start-date": "Date of field [$0] must be before field [$1].",
+            "message-not-matched": "The entered value of field [$0] and [$1] must be the same.",
+            "message-exist": "The value of [$0] has already been takken. Please re-enter for another [$1].",
+            "message-not-exist": "The value of [$0] was incorrect. Let's enter another value.",
+            "password-unchange-error": "The new password must be different from the current password."
+        },
+        "field": {
+            "email": "Email",
+            "phone": "Phone",
+            "fullname": "Fullname",
+            "company": "Company",
+            "message": "Message"
+        },
+        "footer": {
+            "connection": "CONTACT INFORMATION",
+            "phone": "090 387 58 30",
+            "email": "kenvo@inotek.us",
+            "address": "3C Ton Duc Thang Street, District 1, Ho Chi Minh, VIETNAM"
+        }
+    },
+    "pages": {
+        "homepage": {
+            "page-title": "Home",
+            "slogan": {
+                "main-slogan": "GOOD JOB",
+                "sub-slogan": "LOW COST"
+            },
+            "box-1": {
+                "title-text": "What you'll get from INOTEK?",
+                "highlight": "INOTEK",
+                "sub-title-text": "With the latest technology and high-quality human resources, INOTEK always strives to bring customers the best quality products and services at low prices.",
+                "button-text": "Explore"
+            },
+            "box-2": {
+                "title-text": "Multi-disciplinary projects",
+                "highlight": "Multi-disciplinary projects",
+                "sub-title-text": "With our multi-disciplinary expertise and the ability to constantly keep up with the latest technologies, we are always ready to support our customers on the path of developing business in various kinds of fields.",
+                "button-text": "Explore"
+            },
+            "services": {
+                "title": "OUR SERVICES",
+                "advise": {
+                    "text": "Consult",
+                    "alt": "Consult"
+                },
+                "build": {
+                    "text": "Build",
+                    "alt": "Build"
+                },
+                "run": {
+                    "text": "Run",
+                    "alt": "Run"
+                },
+                "optimize": {
+                    "text": "Optimize",
+                    "alt": "Optimize"
+                },
+                "provide-list": {
+                    "item-1": {
+                        "title": "Web Application",
+                        "subtitle": "Building a professional web application not only increases the credibility of the business but also optimizes the customer experience."
+                    },
+                    "item-2": {
+                        "title": "Mobile Application",
+                        "subtitle": "Operate and develop your business efficiently with mobile application that integrates smart features and an eye-catching interface."
+                    },
+                    "item-3": {
+                        "title": "E-learning",
+                        "subtitle": "Automating, systematizing data allows users to self-register and manage learning. Provide various lectures thanks to an extensive network of connections."
+                    },
+                    "item-4": {
+                        "title": "E-commerce",
+                        "subtitle": "Replacing traditional business models with E-commerce helps businesses create competitive advantages, increase conversion rates and sales. "
+                    },
+                    "item-5": {
+                        "title": "HR system",
+                        "subtitle": "Supports human resource management with outstanding features such as checking attendance, timekeeping, employee record keeping, periodic capacity assessment."
+                    },
+                    "item-6": {
+                        "title": "Accounting system",
+                        "subtitle": "Assist enterprises in managing employee compensation, financial situation, and operating expenses effectively. "
+                    },
+                    "item-7": {
+                        "title": "DevOps",
+                        "subtitle": "Create a coherent working process between the developing department and the operation department to ensure product quality and project completion time.​ "
+                    },
+                    "item-8": {
+                        "title": "Consulting",
+                        "subtitle": "We consult, guide how to build, run software systems and transfer technology based on customer requests."
+                    }
+                }
+            },
+            "commitment": {
+                "title": "Our commitment",
+                "commitment-list": {
+                    "item-1": {
+                        "title": "Cost savings",
+                        "subtitle": "Understanding budget concerns, INOTEK provides services at an affordable price, simultaneously, still ensuring the quality and progress of the project."
+                    },
+                    "item-2": {
+                        "title": "Creative solutions",
+                        "subtitle": "In order to support our customers in developing and expanding business, we always try our best to create the most innovative solutions."
+                    },
+                    "item-3": {
+                        "title": "Information security",
+                        "subtitle": "INOTEK always puts the information security for customers first, because not only provide services, we also want to build absolute trust and assurance."
+                    },
+                    "item-4": {
+                        "title": "High-quality team",
+                        "subtitle": "INOTEK has the best and most enthusiastic team of young engineers with multidisciplinary expertise to be able to offer superior technology."
+                    }
+                }
+            },
+            "partner": {
+                "title": "THEY TRUST US",
+                "box": {
+                    "title-text": "Get advice and cooperate with us",
+                    "highlight": "Get advice and cooperate with us",
+                    "sub-title-text": "We are ready to consult as well as answer all of your questions in detail to support and develop your business in the best way.",
+                    "button-text": "Ready to talk?"
+                }
+            },
+            "vision": {
+                "title": "Affirming Vietnam's position on the world technology map",
+                "highlight": "Affirming Vietnam's position on the world technology map",
+                "subtitle": "With the vision of becoming a pioneering enterprise in the field of innovation and technology transfer, INOTEK was launched with the goal of connecting trade between domestic and foreign technology. Especially in developed countries like Japan, USA and Australia. ",
+                "button": "Tell us your need"
+            },
+            "blog": {
+                "title": "BLOG",
+                "read-more": "Read more"
+            }
+        },
+        "term-of-service": {
+            "page-title": "Terms of Service",
+            "header": "Terms of Service"
+        },
+        "privacy-policy": {
+            "page-title": "Privacy Policy",
+            "header": "Privacy Policy"
+        },
+        "whoweserve": {
+            "page-title": "Who We Serve",
+            "banner": {
+                "caption": "WHO WE SERVE"
+            },
+            "intro-text": {
+                "text": "INOTEK provides services to enterprises that are looking for modern technology solutions and high-quality engineers at low cost."
+            },
+            "pro-our": {
+                "button": {
+                    "view-more": "View more"
+                },
+                "item1": {
+                    "icon-alt": "icon product",
+                    "title": "PRODUCTION",
+                    "sub-title": "Constructs and operates software technology platforms.",
+                    "text": "Introduce our product",
+                    "highlight": "Introduce",
+                    "content-text": "Consulting, operating, maintaining, and optimizing the software systems for our clients."
+                },
+                "item2": {
+                    "icon-alt": "icon soucing",
+                    "title": "OUTSOURCING",
+                    "sub-title": "Consulting, operating, maintaining, and optimizing the software systems for our clients.",
+                    "text": "Introduce our product",
+                    "highlight": "Introduce",
+                    "content-text": "TOKUNABI - A job-search app for Vietnamese in Japan of TORENTA company."
+                }
+            }
+        },
+        "weprovide": {
+            "page-title": "Trang What We Do",
+            "banner": {
+                "caption": "INOTEK PROVIDE"
+            },
+            "intro-text": {
+                "text": "Various ranges of comprehensive products and services, including consulting about technology, business, and software engineering."
+            },
+            "process": {
+                "title": "WHAT WE DO",
+                "content": "We consult, build, optimize and run innovative software systems based on customer requirements."
+            },
+            "product-and-service": {
+                "title": "PRODUCTS & SERVICES",
+                "content": "With the latest technology solutions, we aim for a prosperous world in the future where everyone can connect and get things done easily. ",
+                "card1": {
+                    "title": "PRODUCTION",
+                    "content": "Build and run creative technology platforms.​With smart features and a captivating interface, we want to build a friendly interactive environment that enhances user experience. ",
+                    "text": "Introduce our products",
+                    "highlight": "Introduce",
+                    "img-text1": "​KAWME – An education technology platform that provide online courses to users.",
+                    "img-text2": "Friends – A social networking platform for students.​",
+                    "link": "See more"
+                },
+                "card2": {
+                    "title": "OUTSOURCING",
+                    "content": " Consulting, building, optimizing, and running innovative software systems to assist customers in solving problems as well as promoting the development of company scale.",
+                    "text": "Introduce our products",
+                    "highlight": "Introduce",
+                    "img-text1": "Tokunabi - A job-search app of TORENTA company.",
+                    "img-text2": "Personnel management app and information website of Vo Group company. ",
+                    "link": "See more"
+                }
+
+            },
+            "flower-list": {
+                "item1": {
+                    "alt": "icon advise",
+                    "title": "CONSULT",
+                    "text": "Based on the industry of customers company, INOTEK will consult and guide how to develop software projects appropriately."
+                },
+                "item2": {
+                    "alt": "icon build",
+                    "title": "Build",
+                    "text": "After that, we will proceed to build a website system, mobile application, and management system according to customers' requirements."
+                },
+                "item3": {
+                    "alt": "icon run",
+                    "title": "RUN",
+                    "text": "Finally, we carry out the operation and maintenance process of the completed software system for customers."
+                },
+                "item4": {
+                    "alt": "icon optimize",
+                    "title": "OPTIMIZE​",
+                    "text": "When the building step is done, INOTEK will support customers in optimizing to ensure that the software system will be deployed in the best way."
+                }
+            },
+            "client-story": {
+                "title": "ĐÁNH GIÁ TỪ KHÁCH HÀNG",
+                "box-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque risus, ac tellus aliquam.Lorem ipsum dolor sit amet,consectetur adipiscing elit.Scelerisque risus,ac tellus aliquam.Lorem ipsum dolor sit amet,consectetur adipiscing elit.Scelerisque risus,ac tellus aliquam.Lorem ipsum dolor sit amet,consectetur adipiscing elit.Scelerisque risus,ac tellus aliquam."
+            }
+
+        },
+        "contact": {
+            "messages": {
+                "page-title": "Contact",
+                "page-header-title": "Contact Us",
+                "page-intro": "If you need to know more about technology solutions for outsourcing and software system development. Please contact us!",
+                "page-tag": "Thanks for visiting",
+                "page-tag-fill": "Please fill out below form",
+                "page-tag-highlight": "fill out",
+                "input-fullname": {
+                    "label": "Full Name",
+                    "title": "Full Name",
+                    "condition": "",
+                    "placeholder": "Enter your full name"
+                },
+                "input-email": {
+                    "label": "Email",
+                    "title": "Email",
+                    "condition": "",
+                    "placeholder": "Example: name.example.com"
+                },
+                "input-company": {
+                    "label": "Company",
+                    "title": "Company",
+                    "condition": "",
+                    "placeholder": "Enter your company name"
+                },
+                "input-phone": {
+                    "label": "Phone",
+                    "title": "Phone",
+                    "condition": "",
+                    "placeholder": "Example: +840123456789"
+                },
+                "input-message": {
+                    "label": "Message",
+                    "title": "Message",
+                    "condition": "",
+                    "placeholder": "Enter your requirements"
+                }
+            },
+            "success-messages": {
+                "success-alert": {
+                    "header": "Sent!",
+                    "content": "Your contact has been sent",
+                    "icon": "success"
+                },
+                "forgot-alert": {
+                    "header": "Information",
+                    "content": "The password reset information has been sent to your registered email address.<br> Let's enter the PIN code to reset the new password, please."
+                },
+                "sent-contact-successfully": "Your contact has been sent"
+            },
+            "error-message": "エラー",
+            "warning-messages": {}
+        },
+
+        "businesscontact": {
+            "messages": {
+                "page-title": "Business Contact",
+                "page-header-title": "BUILD YOUR DREAM BUSINESS",
+                "page-intro": "The best technology solutions for your businesses with optimal cost, up-to-date technology, a team of high-quality engineers",
+                "page-tag": "Please fill out below form",
+                "page-tag-highlight": "fill out",
+                "input-fullname": {
+                    "label": "Full Name",
+                    "title": "Full Name",
+                    "placeholder": "Enter your full name"
+                },
+                "input-email": {
+                    "label": "Email",
+                    "title": "Email",
+                    "placeholder": "Example: name@example.com"
+                },
+                "input-phone": {
+                    "label": "Phone",
+                    "title": "Phone",
+                    "placeholder": "Example: +840123456789"
+                },
+                "input-checkbox": {
+                    "label": "What are you interested in?",
+                    "text": "Check all types of support that interest you",
+                    "item0": {
+                        "label": "Consult",
+                        "value": "consult",
+                        "title": "consult"
+                    },
+                    "item1": {
+                        "label": "Build",
+                        "value": "build",
+                        "title": "build"
+                    },
+                    "item2": {
+                        "label": "Run",
+                        "value": "run",
+                        "title": "run"
+                    },
+                    "item3": {
+                        "label": "Optimize",
+                        "value": "optimize",
+                        "title": "optimize"
+                    }
+                },
+                "input-message": {
+                    "label": "Do you have any question for us?",
+                    "title": "Do you have any question for us?",
+                    "placeholder": "Enter your requirements"
+                }
+            },
+            "success-messages": {
+                "success-alert": {
+                    "header": "Sent!",
+                    "content": "Your information has been recorded",
+                    "icon": "success"
+                },
+                "forgot-alert": {
+                    "header": "Information",
+                    "content": "The password reset information has been sent to your registered email address.<br> Let's enter the PIN code to reset the new password, please."
+                }
+            },
+            "warning-messages": {}
+        },
+
+        "about": {
+            "messages": {
+                "page-title": "About",
+                "page-header-title": "About Us",
+                "page-intro": "INOTEK concentrates on outsourcing and developing innovative software systems based on the most modern technologies with a team of high-quality engineers.",
+                "box-info": {
+                    "item1": {
+                        "alt": "OUR MISSION",
+                        "title": "OUR MISSION",
+                        "text": "We offer the most modern technology solutions while ensuring optimal operating costs, deployment time, as well as product quality."
+                    },
+                    "item2": {
+                        "alt": "OUR VALUES",
+                        "title": "OUR VALUES",
+                        "text": "Provide products and services based on 4 criteria: MIND, CREATIVITY, WISDOM, SPEED."
+                    },
+                    "item3": {
+                        "alt": "OUR VISION",
+                        "title": "OUR VISION",
+                        "text": "To become a pioneering enterprise in the innovation field and technology transfer between countries around the world."
+                    }
+                },
+                "about-stories": {
+                    "text": "About Us",
+                    "highlight": "",
+                    "story-list": {
+                        "item1": {
+                            "title": "item1",
+                            "alt": "about-story",
+                            "name": "Miss. Kelly",
+                            "position": "CTY TINH ABCJHSJ",
+                            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                        },
+                        "item2": {
+                            "title": "item2",
+                            "alt": "about-story",
+                            "name": "Miss. Kelly",
+                            "position": "CTY TINH ABCJHSJ",
+                            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui praesentium blanditiis ullam deleniti. Vitae corporis nihil quia asperiores accusamus nam! Some representative placeholder content for the first slide of the carousel."
+                        }
+                    }
+                },
+                "team-list": {
+                    "title": "Team",
+                    "list1": {
+                        "team-title": "Leadership",
+                        "team-member-list": {
+                            "item1": {
+                                "title": "item1",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item2": {
+                                "title": "item2",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item3": {
+                                "title": "item3",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item4": {
+                                "title": "item4",
+                                "name": "Vinh Nguyen",
+                                "position": "Backend Developer",
+                                "alt": "avatar1"
+                            }
+                        }
+                    },
+                    "list2": {
+                        "team-title": "Frontend",
+                        "team-member-list": {
+                            "item1": {
+                                "title": "item1",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item2": {
+                                "title": "item2",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item3": {
+                                "title": "item3",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            },
+                            "item4": {
+                                "title": "item4",
+                                "name": "Vinh Nguyen",
+                                "position": "Frontend Developer",
+                                "alt": "avatar1"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "blogs": {
+            "page-title": "Blogs",
+            "caption": "Blogs",
+            "tabs": {
+                "tab-blog": "Blog {name}"
+            }
+        },
+        "our-projects": {
+            "page-title": "Our Projects",
+            "caption": "Our Projects",
+            "intro-text": "We have been developing optimal projects for businesses in terms of constructing technology platforms, design consulting, operating, and maintaining software systems. Simultaneously, supporting high-quality human resources to save budget.",
+            "tabs": {
+                "tab-news": "News",
+                "tab-events": "Events",
+                "tab-client-stories": "Client Stories",
+                "tab-sharing": "Sharing"
+            },
+            "projects": {
+                "project-1": {
+                    "bgAlt": "inotek projects",
+                    "logoAlt": "inotech-text",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-2": {
+                    "bgAlt": "inotek projects",
+                    "logoAlt": "inotech-text",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-3": {
+                    "bgAlt": "inotek projects",
+                    "logoAlt": "inotech-text",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-4": {
+                    "bgAlt": "inotek projects",
+                    "logoAlt": "inotech-text",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-5": {
+                    "bgAlt": "inotek projects",
+                    "logoAlt": "inotech-text",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                },
+                "project-6": {
+                    "bgAlt": "inotek projects",
+                    "logoAlt": "inotech-text",
+                    "subtitle": "Sit ament consectetur adipiscing dolor sit amet .",
+                    "text": "Ipsum dolor sit amet, consectetur me and adipiscing elit. Lorem ipsum dolor sit amet,  ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                    "title": "Projects ac tellus aliquaman"
+                }
+            }
+        },
+        "blog-detail": {
+            "sidebar": {
+                "title": "Related Posts"
+            }
+        }
+    }
+}
